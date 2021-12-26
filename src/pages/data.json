@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Обработка с ЧПУ",
+        "img": "https://routek.cloud/img/3d-printing.svg",
+        "descr": "Фрезерование (3-,4- и 5-осевое), токарная обработка и постобработка."
+    },
+    {
+        "title": "3D-печать и 3D-сканирование",
+        "img": "../assets/images/3d-printing.svg",
+        "descr": "FDM, SLA, SLS, MJF, PolyJet, DMLS."
+    },
+    {
+        "title": "Обработка листового металла",
+        "img": "../assets/images/sheet-metal.svg",
+        "descr": "Резка, гибка и постобработка"
+    },
+    {
+        "title": "Литье",
+        "img": "../assets/images/molding.svg",
+        "descr": "Литье в силиконовые формы и литье в пресс-формы"
+    },
+    {
+        "title": "Вакуумная формовка",
+        "img": "../assets/images/vacuum.svg",
+        "descr": "Любой тираж в минимальные сроки"
+    },
+    {
+        "title": "Производство микроэлектроники",
+        "img": "../assets/images/3d-scanning.svg",
+        "descr": "Изготовление электронных устройств и компонентов для прототипов и промышленных образцов"
+    }
+]

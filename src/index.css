@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    @font-face {
+        font-family: 'Stem';
+        src: url('./assets/fonts/Stem-Light.woff2') format('woff2'), url('./assets/fonts/Stem-Light.woff') format('woff');
+        font-weight: 300;
+        font-style: normal;
+    }
+      
+    @font-face {
+        font-family: 'Stem';
+        src: url('./assets/fonts/Stem-Regular.woff2') format('woff2'), url('./assets/fonts/Stem-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+      
+    @font-face {
+        font-family: 'Stem';
+        src: url('./assets/fonts/Stem-Medium.woff2') format('woff2'), url('./assets/fonts/Stem-Medium.woff') format('woff');
+        font-weight: 500;
+        font-style: normal;
+    }
+      
+    @font-face {
+        font-family: 'Stem';
+        src: url('./assets/fonts/Stem-Bold.woff2') format('woff2'), url('./assets/fonts/Stem-Bold.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+    }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+@layer components {
+    .wrapper {
+        @apply max-w-7xl mx-auto px-4
+    }
+    .navbar {
+        @apply fixed top-0 left-0 w-full bg-black text-neutral-400 z-[25]
+    }
+    .hero-title {
+        @apply font-stem text-3xl md:text-5xl font-bold
+    }
+    .h2-title {
+        @apply text-3xl sm:text-5xl
+    }
+    .btn-xl {
+        @apply inline-block text-center bg-blue-600 text-xl font-medium border border-transparent rounded-md py-2 px-8 text-white hover:bg-blue-700 sm:py-4 sm:text-2xl;
+    }
+    .btn-xl-secondary {
+        @apply bg-emerald-400 hover:bg-emerald-500
+    }
+}
+@layer utilities {
+    .h-18 {
+        height: 4.5rem;
+    }
+    .mt-18 {
+        margin-top: 4.5rem;
+    }
+    .active {
+        /* color: #2780eb; */
+        color: red;
+    }
 }
