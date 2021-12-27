@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/routek-react-2021/static/css/main.883fd51b.css",
+    "main.js": "/routek-react-2021/static/js/main.ce0f5394.js",
+    "static/media/protection-hero-bg.jpg": "/routek-react-2021/static/media/protection-hero-bg.6099d0568e5fbd482567.jpg",
+    "static/media/contacts-hero-bg.jpg": "/routek-react-2021/static/media/contacts-hero-bg.eb48482d2877bfd4b1c5.jpg",
+    "static/media/about-hero-bg.jpg": "/routek-react-2021/static/media/about-hero-bg.605e7dfecb7bba72b6d8.jpg",
+    "static/media/warranty-hero-bg.jpg": "/routek-react-2021/static/media/warranty-hero-bg.a1f6ef8eb3608d890521.jpg",
+    "static/media/index-hero-bg.jpg": "/routek-react-2021/static/media/index-hero-bg.e80cbb577ff31707f021.jpg",
+    "static/media/legal-hero-bg.jpg": "/routek-react-2021/static/media/legal-hero-bg.4a64f81623aee2201d5a.jpg",
+    "static/media/Stem-Regular.woff": "/routek-react-2021/static/media/Stem-Regular.c9b45ed04aeab6763ac0.woff",
+    "static/media/Stem-Light.woff": "/routek-react-2021/static/media/Stem-Light.6955f8d02c3f553b5ff2.woff",
+    "static/media/Stem-Medium.woff": "/routek-react-2021/static/media/Stem-Medium.c140be1bf197cd3ac10b.woff",
+    "static/media/Stem-Bold.woff": "/routek-react-2021/static/media/Stem-Bold.a96191f6679dfe4d8dc5.woff",
+    "static/media/Stem-Regular.woff2": "/routek-react-2021/static/media/Stem-Regular.7e58ab6ad04f783f496d.woff2",
+    "static/media/Stem-Light.woff2": "/routek-react-2021/static/media/Stem-Light.091d302ac5dabb67b36d.woff2",
+    "static/media/Stem-Medium.woff2": "/routek-react-2021/static/media/Stem-Medium.25a6e627feb9daa459ce.woff2",
+    "static/media/Stem-Bold.woff2": "/routek-react-2021/static/media/Stem-Bold.f1a90ef16f13efa03227.woff2",
+    "static/media/routek-logo-white.svg": "/routek-react-2021/static/media/routek-logo-white.75f6c391ecf5c9802fefa91a0dac3316.svg",
+    "static/media/r-logo.svg": "/routek-react-2021/static/media/r-logo.6e2094604c65b38f1f0d18a8c17e524a.svg",
+    "static/media/phone-ico.svg": "/routek-react-2021/static/media/phone-ico.5c87703e934fce42f50a26fc4da7fde0.svg",
+    "static/media/marker-ico.svg": "/routek-react-2021/static/media/marker-ico.b9489d9c31035118ce044bd976447649.svg",
+    "static/media/mail-ico.svg": "/routek-react-2021/static/media/mail-ico.c26257c01f72aaf7eee1aa7e7d894a44.svg",
+    "static/media/linkedin-ico.svg": "/routek-react-2021/static/media/linkedin-ico.97885cb9225d7f9a4a8770d4c0a69c15.svg",
+    "static/media/youtube-ico.svg": "/routek-react-2021/static/media/youtube-ico.8a268f36a5d56da6a9025dab4bbe0983.svg",
+    "index.html": "/routek-react-2021/index.html",
+    "static/media/telegram-ico.svg": "/routek-react-2021/static/media/telegram-ico.fe11ced370083953b235ed7ddc42b7c4.svg",
+    "static/media/facebook-ico.svg": "/routek-react-2021/static/media/facebook-ico.d13f0f65a75baa8d4af25c1b62693782.svg",
+    "main.883fd51b.css.map": "/routek-react-2021/static/css/main.883fd51b.css.map",
+    "main.ce0f5394.js.map": "/routek-react-2021/static/js/main.ce0f5394.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.883fd51b.css",
+    "static/js/main.ce0f5394.js"
+  ]
+}
