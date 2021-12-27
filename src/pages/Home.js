@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
 import bg from '../assets/images/hero-bg/index-hero-bg.jpg'
 import { techCards} from './newData';
+import ManualModal from '../components/ManualModal';
 
 const Home = () => {
     return (
@@ -229,8 +230,8 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-
             {/* End Advantage block */}
+            <ManualModal />
         </>
     )
 }
