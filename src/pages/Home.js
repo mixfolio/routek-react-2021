@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
 import bg from '../assets/images/hero-bg/index-hero-bg.jpg'
-import { techCards, solution } from './newData';
+import { techCards} from './newData';
 
 const Home = () => {
     return (
@@ -14,7 +14,7 @@ const Home = () => {
                 <div className="max-w-screen-xl mx-auto px-4 absolute top-0 left-0 right-0">
                     <ul className="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-6 text-white">
                         {techCards.map((card, index) =>
-                            <li key={index} className="p-4 overflow-hidden h-56 rounded-lg text-center bg-neutral-800 hover:h-full">
+                            <li key={index} className="p-4 overflow-hidden h-56 rounded-lg text-center bg-neutral-800 hover:h-full shadow">
                                 <div className="flex flex-col justify-between h-52">
                                     <h4 className="">{card.title}</h4>
                                     <img className="mb-2 mx-auto" src={card.img} width="128" height="128" alt="icon" />
@@ -36,31 +36,84 @@ const Home = () => {
                     <h2 className="h2-title text-center">Наши решения</h2>
 
                     <ul className="grid lg:grid-cols-3 gap-6 mt-12">
-                        {solution.map((item, index) =>
-                            <li key={index} className="flex flex-col justify-between bg-white border rounded-md drop-shadow-md">
-                                <div className="p-6">
-                                    <h3 className="text-3xl text-blue-500">{item.title}</h3>
-                                    <p className="test-basic font-light text-gray-600 mt-6">{item.text}</p>
+                        <li className="flex flex-col justify-between bg-white border rounded-md drop-shadow-md">
+                            <div className="p-6">
+                                <h3 className="text-3xl text-blue-500">Быстрое прототипирование</h3>
+                                <p className="test-basic font-light text-gray-600 mt-6">FDM - это наиболее широко доступный
+                                    процесс 3D-печати,
+                                    в основном используемый для создания недорогих прототипов и тестирования дизайна в
+                                    очень короткие сроки.</p>
 
+                            </div>
+                            <div className="p-6 flex justify-between space-x-4">
+                                <div>
+                                    <img className="mx-auto" src="./images/sand-watch.svg" width="64" height="64"
+                                        alt="saving-times"/>
+                                    <p className="text-sm mt-2">Saving Time</p>
                                 </div>
-                                <div className="p-6 flex justify-between space-x-4">
-                                    <div>
-                                        <img className="mx-auto" src="https://routek.cloud/img/sand-watch.svg" width="64" height="64"
-                                            alt="saving-times" />
-                                        <p className="text-sm mt-2">Saving Time</p>
-                                    </div>
-                                    <div>
-                                        <img className="mx-auto" src="https://routek.cloud/img/sand-watch.svg" width="64" height="64"
-                                            alt="bar-chart" />
-                                        <p className="text-sm mt-2">Faster Time-to-Market</p>
-                                    </div>
-                                    <div>
-                                        <img className="mx-auto mb-1" src="https://routek.cloud/img/sand-watch.svg" width="64" height="64" alt="low-price" />
-                                        <p className="text-sm mt-2">Low Cost</p>
-                                    </div>
+                                <div>
+                                    <img className="mx-auto" src="./images/bar-chart.svg" width="64" height="64"
+                                        alt="bar-chart"/>
+                                    <p className="text-sm mt-2">Faster Time-to-Market</p>
                                 </div>
-                            </li>
-                        )}
+                                <div>
+                                    <img className="mx-auto mb-1" src="./images/low-price.svg" width="64" height="64"
+                                        alt="low-price"/>
+                                    <p className="text-sm mt-2">Low Cost</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li className="flex flex-col justify-between bg-white border rounded-md drop-shadow-md">
+                            <div className="p-6">
+                                <h3 className="text-3xl text-emerald-400">Виртуальный склад запчастей и деталей</h3>
+                                <p className="test-basic font-light text-gray-600 mt-6">Быстрое изготовление деталей и
+                                    запчастей
+                                    в режиме «plug&play» из цифровых моделей, полностью готовых к производству.</p>
+                            </div>
+                            <div className="p-6 flex justify-between space-x-4">
+                                <div>
+                                    <img className="mx-auto" src="./images/ecology-2.svg" width="64" height="64" alt="ecology"/>
+                                    <p className="text-sm mt-2">Carbon Neutral</p>
+                                </div>
+                                <div>
+                                    <img className="mx-auto" src="./images/bar-chart-2.svg" width="64" height="64"
+                                        alt="bar-chart"/>
+                                    <p className="text-sm mt-2">Faster Time-to-Market</p>
+                                </div>
+                                <div>
+                                    <img className="mx-auto" src="./images/low-price-2.svg" width="64" height="64"
+                                        alt="low-price"/>
+                                    <p className="text-sm mt-2">Low Cost</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li className="flex flex-col justify-between bg-white border rounded-md drop-shadow-md">
+                            <div className="p-6">
+                                <h3 className="text-3xl text-blue-500">Производство по запросу</h3>
+                                <p className="test-basic font-light text-gray-600 mt-6">Распределённое производство
+                                    необходимых
+                                    деталей и конечных изделий из цифровых моделей.</p>
+
+                            </div>
+                            <div className="p-6 flex justify-between space-x-4">
+                                <div>
+                                    <img className="mx-auto" src="./images/easy-access.svg" width="64" height="64"
+                                        alt="easy-access"/>
+                                    <p className="text-sm mt-2">Easy Access</p>
+                                </div>
+                                <div>
+                                    <img className="mx-auto" src="./images/ecology.svg" width="64" height="64" alt="bar-chart"/>
+                                    <p className="text-sm mt-2">Carbon Neutral</p>
+                                </div>
+                                <div>
+                                    <img className="mx-auto" src="./images/sand-watch.svg" width="64" height="64"
+                                        alt="sand-watch"/>
+                                    <p className="text-sm mt-2">Saving Time</p>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </section>

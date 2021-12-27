@@ -121,7 +121,7 @@ const Warranty = () => {
                         <Link to="#" className="btn-xl">Подробнее</Link>
                     </div>
                     <div className="md:flex sm:items-center sm:space-x-4 mt-6">
-                        <img className="mx-auto w-48 md:w-fit" src="./img/decision-ico.svg" alt="decision"/>
+                        <img className="mx-auto w-48 md:w-fit" src="./images/decision-ico.svg" alt="decision"/>
                         <div>
                             <h3 className="text-2xl font-medium">Решение</h3>
                             <p className="text-xl font-light text-neutral-700">Если ваш заказ не соответствует
