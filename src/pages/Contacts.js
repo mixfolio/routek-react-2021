@@ -9,7 +9,7 @@ import mailIcon from '../assets/images/mail-ico.svg';
 const Contacts = () => {
     const heroTitleSpan = 'Вместе открываем новые возможности '
     const heroTitle = 'цифрового производства'
-    const heroSubtitle = 'Мы будем рады пообщаться и ответить на ваши вопросы! <br/> Введите свой номер телефона, тему и воспользуйтесь нашей услугой обратной связи'
+    const heroSubtitle = <>Мы будем рады пообщаться и ответить на ваши вопросы! <br/>Введите свой номер телефона, тему и воспользуйтесь нашей услугой обратной связи</>;
     return (
         <>
             <Hero bg={bg} heroTitleSpan={heroTitleSpan} heroTitle={heroTitle} heroSubtitle={heroSubtitle}/>

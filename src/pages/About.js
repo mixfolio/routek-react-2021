@@ -6,7 +6,7 @@ import bg from '../assets/images/hero-bg/about-hero-bg.jpg'
 const About = () => {
     const heroTitleSpan = 'Открываем новые возможности '
     const heroTitle = 'цифрового производства'
-    const heroSubtitle = 'Routek – это облачное производство, <br/>  обеспечивающее быстрый доступ заказчиков к производственным мощностям'
+    const heroSubtitle = <>Routek – это облачное производство, <br/>  обеспечивающее быстрый доступ заказчиков к производственным мощностям</>
     return (
         <>
             <Hero bg={bg} heroTitleSpan={heroTitleSpan} heroTitle={heroTitle} heroSubtitle={heroSubtitle} />

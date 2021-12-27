@@ -5,11 +5,13 @@ import Hero from '../components/Hero';
 import bg from  '../assets/images/hero-bg/warranty-hero-bg.jpg'
 
 const Warranty = () => {
+    const heroTitleSpan = 'Гарантия ';
+    const heroTitle = 'качества';
+    const heroSubtitle = <>Наша команда заботится о том, чтобы все заказанные <br/>
+    вами детали были доставлены вовремя и <br/>соответствовали вашим ожиданиям по качеству</>
     return (
         <>
-            <Hero bg={bg}  heroTitleSpan="Гарантия" heroTitle="качества" heroSubtitle="Наша команда заботится о том, чтобы все заказанные 
-вами детали были доставлены вовремя и 
-соответствовали вашим ожиданиям по качеству"/>
+            <Hero bg={bg}  heroTitleSpan={heroTitleSpan} heroTitle={heroTitle} heroSubtitle={heroSubtitle}/>
              <section className="py-16">
                 <div className="max-w-screen-xl mx-auto px-4">
                     <ul className="grid md:grid-cols-1 lg:grid-cols-4 gap-6">

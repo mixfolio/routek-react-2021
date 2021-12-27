@@ -3,12 +3,15 @@ import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
 import bg from '../assets/images/hero-bg/index-hero-bg.jpg'
 import { techCards} from './newData';
-import ManualModal from '../components/ManualModal';
+
 
 const Home = () => {
-    return (
+    const heroTitleSpan = 'Производство '
+    const heroTitle = 'в один клик'
+    const heroSubtitle = <>Облачное производство Routek.cloud: <br/>гарантируем сроки производства и качество изделий</>
+    return (    
         <>
-            <Hero bg={bg} heroTitleSpan="Производство" heroTitle="в один клик" heroSubtitle={`Облачное производство Routek.cloud: $\n гарантируем сроки производства и качество изделий`} />
+            <Hero bg={bg} heroTitleSpan={heroTitleSpan} heroTitle={heroTitle} heroSubtitle={heroSubtitle} />
 
             {/* Start Tech block */}
             <section className="top-[-64px] tech-sect relative z-10 min-h-[1280px] sm:min-h-[640px] md:min-h-[392px] xl:min-h-[calc(240px-88px)]">
@@ -231,7 +234,7 @@ const Home = () => {
                 </div>
             </section>
             {/* End Advantage block */}
-            <ManualModal />
+            
         </>
     )
 }

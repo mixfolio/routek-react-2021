@@ -6,7 +6,7 @@ import bg from  '../assets/images/hero-bg/protection-hero-bg.jpg'
 const Protection = () => {
     const heroTitleSpan = 'Защита '
     const heroTitle = 'интеллектуальной собственности'
-    const heroSubtitle = 'Мы серьезно относимся к защите <br/> Вашей интеллектуальной собственности'
+    const heroSubtitle = <>Мы серьезно относимся к защите <br/>Вашей интеллектуальной собственности</>;
     return (
         <>
             <Hero bg={bg}  heroTitleSpan={heroTitleSpan} heroTitle={heroTitle} heroSubtitle={heroSubtitle}/>

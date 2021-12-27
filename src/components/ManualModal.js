@@ -1,12 +1,13 @@
 import React from 'react'
 
-const ManualModal = () => {
+const ManualModal = ({visible, setVisible}) => {
+
     return (
-        <div id="manual" className="manual-modal overflow-y-auto fixed inset-0 bg-black bg-opacity-50 z-30">
+        <div id="manual" className={visible ? "manual-modal overflow-y-auto fixed inset-0 bg-black bg-opacity-50 z-30" : "hidden overflow-y-auto fixed inset-0 bg-black bg-opacity-50 z-30"}>
             <div className="min-h-full flex items-center justify-center p-4">
 
                 <div className="relative max-w-3xl bg-white p-6 rounded-lg">
-                    <svg className="absolute top-4 right-4 cursor-pointer" onClick="closeManual()" width="36" height="36" viewBox="0 0 24 24"
+                    <svg className="absolute top-4 right-4 cursor-pointer" onClick={() => setVisible(!visible)} width="36" height="36" viewBox="0 0 24 24"
                         fill="#2780eb" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M18.435 18.4353C18.0445 18.8258 17.4113 18.8258 17.0208 18.4353L5.70712 7.12161C5.31659 6.73109 5.31659 6.09792 5.70712 5.7074C6.09764 5.31687 6.73081 5.31687 7.12133 5.7074L18.435 17.0211C18.8256 17.4116 18.8256 18.0448 18.435 18.4353Z" />
