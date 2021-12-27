@@ -13,7 +13,7 @@ const Legal = () => {
             <Hero bg={bg} heroTitleSpan={heroTitleSpan} heroTitle={heroTitle} heroSubtitle={heroSubtitle} />
             <section className="py-16">
                 <div className="max-w-screen-xl mx-auto px-4">
-                    <h2 className="text-5xl text-center">Правовая информация</h2>
+                    <h2 className="h2-title">Правовая информация</h2>
                     <ul className="mt-6">
 
                         <li className="faq__item">

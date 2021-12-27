@@ -31,7 +31,7 @@ const ManualModal = ({visible, setVisible}) => {
                                 </p>
                                 <div className="flex justify-between mt-6">
                                     <button className="inline-block text-center bg-gray-400 border border-transparent rounded-md py-2 px-4 text-white hover:bg-gray-500 hover:shadow-sm transition" type='button'>Пропустить</button>
-                                    <button onClick="nextSlide()" className="inline-block text-center bg-primary border border-transparent rounded-md py-2 px-4 text-white hover:bg-blue-600 hover:shadow-sm transition" type='button'>Начинаем</button>
+                                    <button  className="inline-block text-center bg-primary border border-transparent rounded-md py-2 px-4 text-white hover:bg-blue-600 hover:shadow-sm transition" type='button'>Начинаем</button>
                                 </div>
                             </div>
                         </div>
@@ -64,9 +64,9 @@ const ManualModal = ({visible, setVisible}) => {
                                     файлы на платформу.
                                 </p>
                                 <div className="flex justify-between items-center mt-6">
-                                    <button onClick="prevSlide()" className="inline-block text-center bg-gray-400 border border-transparent rounded-md py-2 px-4 text-white hover:bg-gray-500 hover:shadow-sm transition" type="button">Назад</button>
+                                    <button className="inline-block text-center bg-gray-400 border border-transparent rounded-md py-2 px-4 text-white hover:bg-gray-500 hover:shadow-sm transition" type="button">Назад</button>
                                     <p className="font-light text-gray-600">1/4</p>
-                                    <button onClick="nextSlide()" className="inline-block text-center bg-primary border border-transparent rounded-md py-2 px-4 text-white hover:bg-blue-600 hover:shadow-sm transition" type="button">Далее</button>
+                                    <button className="inline-block text-center bg-primary border border-transparent rounded-md py-2 px-4 text-white hover:bg-blue-600 hover:shadow-sm transition" type="button">Далее</button>
                                 </div>
                             </div>
                         </div>
@@ -89,9 +89,9 @@ const ManualModal = ({visible, setVisible}) => {
                                     <li >Вакуумная формовка</li>
                                 </ul>
                                 <div className="flex justify-between items-center mt-6">
-                                    <button onClick="prevSlide()" className="inline-block text-center bg-gray-400 border border-transparent rounded-md py-2 px-4 text-white hover:bg-gray-500 hover:shadow-sm transition" type="button">Назад</button>
+                                    <button className="inline-block text-center bg-gray-400 border border-transparent rounded-md py-2 px-4 text-white hover:bg-gray-500 hover:shadow-sm transition" type="button">Назад</button>
                                     <p className="font-light text-gray-600">2/4</p>
-                                    <button onClick="nextSlide()" className="inline-block text-center bg-primary border border-transparent rounded-md py-2 px-4 text-white hover:bg-blue-600 hover:shadow-sm transition" type="button">Далее</button>
+                                    <button className="inline-block text-center bg-primary border border-transparent rounded-md py-2 px-4 text-white hover:bg-blue-600 hover:shadow-sm transition" type="button">Далее</button>
                                 </div>
                             </div>
                         </div>
@@ -116,9 +116,9 @@ const ManualModal = ({visible, setVisible}) => {
                                     также CAD файл и/или конструкторскую документацию.
                                 </p>
                                 <div className="flex justify-between items-center mt-6">
-                                    <button onClick="prevSlide()" className="inline-block text-center bg-gray-400 border border-transparent rounded-md py-2 px-4 text-white hover:bg-gray-500 hover:shadow-sm transition" type="button">Назад</button>
+                                    <button className="inline-block text-center bg-gray-400 border border-transparent rounded-md py-2 px-4 text-white hover:bg-gray-500 hover:shadow-sm transition" type="button">Назад</button>
                                     <p className="font-light text-gray-600">3/4</p>
-                                    <button onClick="nextSlide()" className="inline-block text-center bg-primary border border-transparent rounded-md py-2 px-4 text-white hover:bg-blue-600 hover:shadow-sm transition" type="button">Далее</button>
+                                    <button className="inline-block text-center bg-primary border border-transparent rounded-md py-2 px-4 text-white hover:bg-blue-600 hover:shadow-sm transition" type="button">Далее</button>
                                 </div>
 
                             </div>
@@ -140,9 +140,9 @@ const ManualModal = ({visible, setVisible}) => {
                                     на
                                     связи с Вами и производством.</p>
                                 <div className="flex justify-between items-center mt-6">
-                                    <button onClick="prevSlide()" className="inline-block text-center bg-gray-400 border border-transparent rounded-md py-2 px-4 text-white hover:bg-gray-500 hover:shadow-sm transition" type='button'>Назад</button>
+                                    <button className="inline-block text-center bg-gray-400 border border-transparent rounded-md py-2 px-4 text-white hover:bg-gray-500 hover:shadow-sm transition" type='button'>Назад</button>
                                     <p className="font-light text-gray-600">4/4</p>
-                                    <button onClick="nextSlide()" className="inline-block text-center bg-primary border border-transparent rounded-md py-2 px-4 text-white hover:bg-blue-600 hover:shadow-sm transition" type='button'>Далее</button>
+                                    <button className="inline-block text-center bg-primary border border-transparent rounded-md py-2 px-4 text-white hover:bg-blue-600 hover:shadow-sm transition" type='button'>Далее</button>
                                 </div>
                             </div>
                         </div>

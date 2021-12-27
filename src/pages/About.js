@@ -75,21 +75,21 @@ const About = () => {
                             <div className="mb-4">
                                 <img src="images/values-ico-01.svg" alt="values-ico-01" />
                             </div>
-                            <h3 className="text-2xl font-medium">Клиентоориентированность</h3>
+                            <h3 className="text-xl sm:text-2xl font-medium">Клиентоориентированность</h3>
                             <p className="text-basic font-light text-neutral-700 mt-2">Все наши действия и усилия направлены, прежде всего, на обеспечение наивысшего качества обслуживания Наших клиентов. Мы всегда стараемся сдержать свои обещания перед клиентом и решить все его задачи. Всегда!</p>
                         </li>
                         <li>
                             <div className="mb-4">
                                 <img src="images/values-ico-02.svg" alt="values-ico-02.svg" />
                             </div>
-                            <h3 className="text-2xl font-medium">Профессионализм</h3>
+                            <h3 className="text-xl sm:text-2xl font-medium">Профессионализм</h3>
                             <p className="text-basic font-light text-neutral-700 mt-2">В нашем мире невозможно без профессионализма, а он зависит от знаний и опыта. Профессионализм формирует доверие к нам и позволяет решать самые сложные и амбициозные задачи. Это так.</p>
                         </li>
                         <li>
                             <div className="mb-4">
                                 <img src="images/values-ico-03.svg" alt="values-ico-03.svg" />
                             </div>
-                            <h3 className="text-2xl font-medium">Открытость</h3>
+                            <h3 className="text-xl sm:text-2xl font-medium">Открытость</h3>
                             <p className="text-basic font-light text-neutral-700 mt-2">Открытость способствует обмену знаниями и опытом внутри команды, между нашими клиентами и партнерами. Открытость формирует инновации, которые мы реализуем в наших проектах и решениях.</p>
                         </li>
                     </ul>

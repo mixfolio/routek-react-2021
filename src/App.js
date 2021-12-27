@@ -7,6 +7,7 @@ import ManualModal from "./components/ManualModal";
 
 function App() {
   const [isModalVisible, setIsModalVisible] = useState(false);
+  const [isMenuVisible, setMenuVisible] = useState(false)
   // function showManual() {
   //   setIsModalVisible(isModalVisible === true)
   // }
@@ -17,7 +18,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Navbar />
+      <Navbar visible={isMenuVisible} setVisible={setMenuVisible}/>
       <AppRouter/>
       <Footer/>
       <ManualModal visible={isModalVisible} setVisible={setIsModalVisible}/>

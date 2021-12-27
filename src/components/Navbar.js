@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
-import logo from '../assets/images/routek-logo-white.svg'
+import logo from '../assets/images/routek-logo-white.svg';
+import logoSmall from '../assets/images/r-logo.svg';
 
-const Navbar = () => {
+const Navbar = ({visible, setVisible}) => {
     return (
         <nav className="navbar">
         <div className="wrapper">
@@ -11,17 +12,25 @@ const Navbar = () => {
 
                 {/* Buttons section */}
                 <div className="lg:hidden">
-                    <button type="button" className="inline-flex items-center justify-center border border-neutral-400 p-2 rounded-md">
-                        <svg className="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
-                          </svg>
+                    <button onClick={() => setVisible(!visible)} type="button" className="inline-flex items-center justify-center p-2">
+                        {visible 
+                            ? 
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                            :
+                            <svg className="block h-6 w-6 hover:text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>}
+                        
                     </button>
                 </div>
                 {/* Main nav section */}
                 <div className="flex-1 flex items-center justify-center lg:justify-start">
                     <div className="logos">
                         <Link to="/">
-                            <img src={logo} width="192" height="72" alt="Компания Routek"/>
+                            <img className='sm:hidden' src={logoSmall} alt="small-logo" />
+                            <img className='hidden sm:block' src={logo} width="192" height="72" alt="Компания Routek"/>
                         </Link>
                     </div>
                     <div className="main-nav hidden lg:block lg:ml-8">
@@ -67,22 +76,22 @@ const Navbar = () => {
         </div>
         
         {/* Mobile Menu */}
-        <div className="lg:hidden" id="mobile-menu">
+        <div className={visible ? "lg:hidden" : "hidden lg:hidden"}>
             <ul className="px-2 pt-2 pb-3 space-y-1">
                 <li>
-                    <NavLink to="/about" className="bg-neutral-900 px-3 py-2 rounded-md block font-light hover:text-white hover:bg-neutral-800">О нас</NavLink>
+                    <NavLink onClick={() => setVisible(false)} to="/about" className="bg-neutral-900 px-3 py-2 rounded-md block font-light hover:text-white hover:bg-neutral-800">О нас</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/warranty.html" className="bg-neutral-900 px-3 py-2 rounded-md block font-light hover:text-white hover:bg-neutral-800">Гарантия качества</NavLink>
+                    <NavLink onClick={() => setVisible(false)} to="/warranty" className="bg-neutral-900 px-3 py-2 rounded-md block font-light hover:text-white hover:bg-neutral-800">Гарантия качества</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/protection" className="bg-neutral-900 px-3 py-2 rounded-md block font-light hover:text-white hover:bg-neutral-800">Защита IP</NavLink>
+                    <NavLink onClick={() => setVisible(false)} to="/protection" className="bg-neutral-900 px-3 py-2 rounded-md block font-light hover:text-white hover:bg-neutral-800">Защита IP</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/contacts" className="bg-neutral-900 px-3 py-2 rounded-md block font-light hover:text-white hover:bg-neutral-800">Контакты</NavLink>
+                    <NavLink onClick={() => setVisible(false)} to="/contacts" className="bg-neutral-900 px-3 py-2 rounded-md block font-light hover:text-white hover:bg-neutral-800">Контакты</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/legal" className="bg-neutral-900 px-3 py-2 rounded-md block font-light hover:text-white hover:bg-neutral-800">Правовая информация</NavLink>
+                    <NavLink onClick={() => setVisible(false)} to="/legal" className="bg-neutral-900 px-3 py-2 rounded-md block font-light hover:text-white hover:bg-neutral-800">Правовая информация</NavLink>
                 </li>
             </ul>
         </div>

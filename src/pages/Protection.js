@@ -12,7 +12,7 @@ const Protection = () => {
             <Hero bg={bg}  heroTitleSpan={heroTitleSpan} heroTitle={heroTitle} heroSubtitle={heroSubtitle}/>
             <section className="py-16">
             <div className="max-w-screen-xl mx-auto px-4">
-                <h2 className="text-5xl">Конфиденциальность от начала до конца</h2>
+                <h2 className="h2-title">Конфиденциальность от начала до конца</h2>
                 <div className="mt-12 text-basic font-light text-neutral-700">
                     <p>Routek работает с глобальной сетью производственных партнеров. Все наши партнеры должны пройти строгую процедуру проверки и регистрации, которая включает в себя заключение договорных обязательств по защите ваших данных.</p>
                     <p className="mt-4">Мы используем безопасные (зашифрованные) каналы для всех взаимодействий наших клиентов и производственных партнеров, т.е. когда передаются какие-либо файлы.</p>

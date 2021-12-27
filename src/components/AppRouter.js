@@ -1,18 +1,18 @@
 import React from 'react';
-import {Switch, Route, Redirect} from 'react-router-dom';
+import {Routes, Route} from 'react-router-dom';
 import { publicRoutes } from '../routes';
-import { HOME_ROUTE } from '../utils/consts';
+// import { HOME_ROUTE } from '../utils/consts';
 
 
 const AppRouter = () => {
     return (
         <main>
-            <Switch>
+            <Routes>
                 {publicRoutes.map(({path, Component}) => 
-                    <Route key={path} path={path} component={Component} exact/>
+                    <Route key={path} path={path} element={Component}/>
                 )}
-                <Redirect to={HOME_ROUTE}/>
-            </Switch>
+                
+            </Routes>
         </main>
     )
 }

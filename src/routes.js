@@ -1,3 +1,4 @@
+import { Navigate } from "react-router-dom";
 import { 
     HOME_ROUTE, 
     ABOUT_ROUTE, 
@@ -21,27 +22,31 @@ export const authRoutes = [
 export const publicRoutes = [
     {
         path: HOME_ROUTE,
-        Component: Home
+        Component: <Home/>
     },
     {
         path: ABOUT_ROUTE,
-        Component: About
+        Component: <About/>
     },
     {
         path: WARRANTY_ROUTE,
-        Component: Warranty
+        Component: <Warranty/>
     },
     {
         path: PROTECTION_ROUTE,
-        Component: Protection
+        Component: <Protection/>
     },
     {
         path: CONTACTS_ROUTE,
-        Component: Contacts
+        Component: <Contacts/>
     },
     {
         path: LEGAL_ROUTE,
-        Component: Legal
+        Component: <Legal/>
+    },
+    {
+        path: "*",
+        Component: <Navigate to="/" />
     },
 
 ];

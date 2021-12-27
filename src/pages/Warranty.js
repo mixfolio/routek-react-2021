@@ -37,7 +37,7 @@ const Warranty = () => {
 
             <section className="py-16 bg-neutral-900 text-white">
                 <div className="container mx-auto px-4">
-                    <h2 className="text-5xl text-center">Оценка производственного партнера</h2>
+                    <h2 className="h2-title text-center">Оценка производственного партнера</h2>
                     <h4 className="text-basic font-light text-neutral-400 mt-4 uppercase text-center">Производственные
                         мощности
                         наших партнеров постоянно контролируются нашей командой,<br />что гарантирует качественное
@@ -74,7 +74,7 @@ const Warranty = () => {
 
             <section className="py-16">
                 <div className="max-w-screen-xl mx-auto px-4">
-                    <h2 className="text-5xl text-center">Гарантия качества</h2>
+                    <h2 className="h2-title text-center">Гарантия качества</h2>
                     <h4 className="text-basic font-light text-neutral-700 mt-4 uppercase text-center">Производственные
                         мощности
                         наших партнеров постоянно контролируются нашей командой, <br />
@@ -100,7 +100,7 @@ const Warranty = () => {
                     <div className="mt-16 md:flex md:items-center md:space-x-4">
                         <img className="mx-auto hidden" src="./images/quality-ico-01.svg" alt="quality-ico"/>
                         <div>
-                            <h2 className="text-5xl text-center">Программа проверки дизайна</h2>
+                            <h2 className="h2-title text-center">Программа проверки дизайна</h2>
                             <div className="mt-6 text-xl font-light text-neutral-700">
                                 <p>Routek предоставляет Вам возможность воспользоваться Программой проверки дизайна для
                                     заказов с минимальной партией 50 шт. или стоимостью более 300 000 RUB c учетом НДС.
