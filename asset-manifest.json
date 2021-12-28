@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/routek-react-2021/static/css/main.883fd51b.css",
-    "main.js": "/routek-react-2021/static/js/main.ce0f5394.js",
+    "main.js": "/routek-react-2021/static/js/main.23362c92.js",
     "static/media/protection-hero-bg.jpg": "/routek-react-2021/static/media/protection-hero-bg.6099d0568e5fbd482567.jpg",
     "static/media/contacts-hero-bg.jpg": "/routek-react-2021/static/media/contacts-hero-bg.eb48482d2877bfd4b1c5.jpg",
     "static/media/about-hero-bg.jpg": "/routek-react-2021/static/media/about-hero-bg.605e7dfecb7bba72b6d8.jpg",
@@ -18,8 +18,14 @@
     "static/media/Stem-Bold.woff2": "/routek-react-2021/static/media/Stem-Bold.f1a90ef16f13efa03227.woff2",
     "static/media/routek-logo-white.svg": "/routek-react-2021/static/media/routek-logo-white.75f6c391ecf5c9802fefa91a0dac3316.svg",
     "static/media/r-logo.svg": "/routek-react-2021/static/media/r-logo.6e2094604c65b38f1f0d18a8c17e524a.svg",
+    "static/media/3d-printing.svg": "/routek-react-2021/static/media/3d-printing.2ec9a2fb15a6f222fcd84f5bb384a0f8.svg",
+    "static/media/chpu.svg": "/routek-react-2021/static/media/chpu.fcf8b8458eeeef372f8f47000d64a13c.svg",
     "static/media/phone-ico.svg": "/routek-react-2021/static/media/phone-ico.5c87703e934fce42f50a26fc4da7fde0.svg",
+    "static/media/sheet-metal.svg": "/routek-react-2021/static/media/sheet-metal.e846e2eaa9312c0b8d6fa33f590fcd92.svg",
     "static/media/marker-ico.svg": "/routek-react-2021/static/media/marker-ico.b9489d9c31035118ce044bd976447649.svg",
+    "static/media/molding.svg": "/routek-react-2021/static/media/molding.ee92a7117b8571ab80843093778959ab.svg",
+    "static/media/vacuum.svg": "/routek-react-2021/static/media/vacuum.7eda65add5d178b35824e2006285caa3.svg",
+    "static/media/3d-scanning.svg": "/routek-react-2021/static/media/3d-scanning.399c43462cfcc2f4742893ce83a73252.svg",
     "static/media/mail-ico.svg": "/routek-react-2021/static/media/mail-ico.c26257c01f72aaf7eee1aa7e7d894a44.svg",
     "static/media/linkedin-ico.svg": "/routek-react-2021/static/media/linkedin-ico.97885cb9225d7f9a4a8770d4c0a69c15.svg",
     "static/media/youtube-ico.svg": "/routek-react-2021/static/media/youtube-ico.8a268f36a5d56da6a9025dab4bbe0983.svg",
@@ -27,10 +33,10 @@
     "static/media/telegram-ico.svg": "/routek-react-2021/static/media/telegram-ico.fe11ced370083953b235ed7ddc42b7c4.svg",
     "static/media/facebook-ico.svg": "/routek-react-2021/static/media/facebook-ico.d13f0f65a75baa8d4af25c1b62693782.svg",
     "main.883fd51b.css.map": "/routek-react-2021/static/css/main.883fd51b.css.map",
-    "main.ce0f5394.js.map": "/routek-react-2021/static/js/main.ce0f5394.js.map"
+    "main.23362c92.js.map": "/routek-react-2021/static/js/main.23362c92.js.map"
   },
   "entrypoints": [
     "static/css/main.883fd51b.css",
-    "static/js/main.ce0f5394.js"
+    "static/js/main.23362c92.js"
   ]
 }
