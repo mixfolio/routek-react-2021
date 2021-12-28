@@ -5,7 +5,9 @@ import {
     WARRANTY_ROUTE, 
     PROTECTION_ROUTE, 
     CONTACTS_ROUTE, 
-    LEGAL_ROUTE 
+    LEGAL_ROUTE,
+    LOGIN_ROUTE,
+    REGISTRATION_ROUTE
 } from "./utils/consts";
 
 import Home from './pages/Home';
@@ -14,6 +16,7 @@ import Warranty from './pages/Warranty';
 import Protection from './pages/Protection';
 import Contacts from './pages/Contacts';
 import Legal from './pages/Legal'
+import Auth from './pages/Auth'
 
 export const authRoutes = [
 
@@ -43,6 +46,14 @@ export const publicRoutes = [
     {
         path: LEGAL_ROUTE,
         Component: <Legal/>
+    },
+    {
+        path: LOGIN_ROUTE,
+        Component: <Auth/>
+    },
+    {
+        path: REGISTRATION_ROUTE,
+        Component: <Auth/>
     },
     {
         path: "*",

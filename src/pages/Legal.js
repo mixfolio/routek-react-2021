@@ -1,12 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Hero from '../components/Hero';
 
 import bg from '../assets/images/hero-bg/legal-hero-bg.jpg'
+
 
 const Legal = () => {
     const heroTitleSpan = 'Правовая '
     const heroTitle = 'информация'
     const heroSubtitle = <>В этом разделе вы найдете все юридические и нормативные документы, <br/>регламентирующие работу нашей платформы</>;
+
+    const [clicked, setClicked] = useState(false);
+    const legalText = document.querySelectorAll('.legal-text');
+    const toggle = function(index) {
+        if (index === legalText) {
+            setClicked(!clicked)
+            alert(index)
+        }
+    }
+
+
 
     return (
         <>
@@ -16,10 +28,10 @@ const Legal = () => {
                     <h2 className="h2-title">Правовая информация</h2>
                     <ul className="mt-6">
 
-                        <li className="faq__item">
-                            <h3  className="text-2xl text-primary py-4 border-b cursor-pointer ">
+                        <li className="legal-item">
+                            <h3 onClick={() => toggle(0)}  className="text-2xl text-primary py-4 border-b cursor-pointer ">
                                 Пользовательское соглашение </h3>
-                            <div className="faq__text my-4 space-y-2">
+                            <div  className={clicked ? "legal-text my-4 space-y-2" : "legal-text my-4 space-y-2 hidden"}>
                                 <p>Общество с ограниченной ответственностью «РОУТЭК», в лице Генерального директора
                                     Жукова Артема Павловича, действующего на основании Устава, с одной стороны, и лицо,
                                     акцептовавшее оферту, размещенную в сети Интернет по адресу <a className="text-primary"
@@ -491,10 +503,10 @@ const Legal = () => {
                             </div>
                         </li>
 
-                        <li className="faq__item">
-                            <h3 className="text-2xl text-primary py-4 border-b cursor-pointer ">
+                        <li className="legal-item">
+                            <h3 onClick={() => toggle(1)}  className="text-2xl text-primary py-4 border-b cursor-pointer ">
                                 Лицензионное Соглашение</h3>
-                            <div className="faq__text my-4 space-y-2">
+                            <div className={clicked ? "legal-text my-4 space-y-2" : "legal-text my-4 space-y-2 hidden" }>
                                 <p> Общество с ограниченной ответственностью «РОУТЭК» и третье лицо, акцептовавшее настоящую
                                     оферту, размещенную в информационно-телекоммуникационной сети «Интернет» (далее – «сеть
                                     Интернет») по адресу <a className="text-primary"
@@ -807,10 +819,10 @@ const Legal = () => {
                             </div>
                         </li>
 
-                        <li className="faq__item">
-                            <h3  className="text-2xl text-primary py-4 border-b cursor-pointer">Политика ООО
+                        <li className="legal-item">
+                            <h3 onClick={() => toggle(2)}  className="text-2xl text-primary py-4 border-b cursor-pointer">Политика ООО
                                 «РОУТЭК» в отношении обработки персональных данных</h3>
-                            <div className="faq__text mt-4 space-y-2">
+                            <div className={clicked ? "legal-text mt-4 space-y-2" : "legal-text mt-4 space-y-2 hidden"}>
                                 <h4>1. ОБЩИЕ ПОЛОЖЕНИЯ</h4>
                                 <p>1. Настоящая политика ООО «РОУТЭК» в отношении обработки персональных данных (далее –
                                     «Политика») определяет политику в отношении обработки персональных данных ООО «РОУТЭК»

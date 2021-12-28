@@ -4,3 +4,5 @@ export const WARRANTY_ROUTE = '/warranty';
 export const PROTECTION_ROUTE = '/protection';
 export const CONTACTS_ROUTE = '/contacts';
 export const LEGAL_ROUTE = '/legal';
+export const LOGIN_ROUTE = '/login';
+export const REGISTRATION_ROUTE = '/registration';
