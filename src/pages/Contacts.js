@@ -1,18 +1,16 @@
 import React from 'react';
 import Hero from "../components/Hero";
+import { heroContacts } from '../data/heroData';
 
-import bg from '../assets/images/hero-bg/contacts-hero-bg.jpg'
 import markerIcon from '../assets/images/marker-ico.svg';
 import phoneIcon from '../assets/images/phone-ico.svg';
 import mailIcon from '../assets/images/mail-ico.svg';
 
 const Contacts = () => {
-    const heroTitleSpan = 'Вместе открываем новые возможности '
-    const heroTitle = 'цифрового производства'
-    const heroSubtitle = <>Мы будем рады пообщаться и ответить на ваши вопросы! <br/>Введите свой номер телефона, тему и воспользуйтесь нашей услугой обратной связи</>;
+   
     return (
         <>
-            <Hero bg={bg} heroTitleSpan={heroTitleSpan} heroTitle={heroTitle} heroSubtitle={heroSubtitle}/>
+            <Hero image={heroContacts.image} titleSpan={heroContacts.titleSpan} title={heroContacts.title} subtitle={heroContacts.subtitle} />
             <section className="py-16">
                 <div className="container mx-auto px-4">
                     <div>

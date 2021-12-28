@@ -1,21 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
-import bg from '../assets/images/hero-bg/index-hero-bg.jpg'
-import { techCards} from './newData';
+import { heroHome } from '../data/heroData';
+import { techCards} from '../data/newData';
 
 import stepOne from '../assets/images/step-1.svg'
 import stepTwo from '../assets/images/step-2.svg'
 import stepThree from '../assets/images/step-3.svg'
 
-
 const Home = () => {
-    const heroTitleSpan = 'Производство '
-    const heroTitle = 'в один клик'
-    const heroSubtitle = <>Облачное производство Routek.cloud: <br/>гарантируем сроки производства и качество изделий</>
+   
     return (    
         <>
-            <Hero bg={bg} heroTitleSpan={heroTitleSpan} heroTitle={heroTitle} heroSubtitle={heroSubtitle} />
+            <Hero image={heroHome.image} titleSpan={heroHome.titleSpan} title={heroHome.title} subtitle={heroHome.subtitle} />
 
             {/* Start Tech block */}
             <section className="top-[-64px] tech-sect relative z-10 min-h-[1280px] sm:min-h-[640px] md:min-h-[392px] xl:min-h-[calc(240px-88px)]">

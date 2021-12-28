@@ -1,17 +1,12 @@
 import React, { useState } from 'react'
 import Hero from '../components/Hero';
-
-import bg from '../assets/images/hero-bg/legal-hero-bg.jpg'
+import { heroLegal } from '../data/heroData';
 import { legalData } from '../data/legalData'
 
 
 const Legal = () => {
-    const heroTitleSpan = 'Правовая '
-    const heroTitle = 'информация'
-    const heroSubtitle = <>В этом разделе вы найдете все юридические и нормативные документы, <br />регламентирующие работу нашей платформы</>;
-
+   
     const [clicked, setClicked] = useState(false);
-
     function toggle(index) {
         if (clicked === index) {
             // если пункт уже открыт
@@ -22,7 +17,7 @@ const Legal = () => {
 
     return (
         <>
-            <Hero bg={bg} heroTitleSpan={heroTitleSpan} heroTitle={heroTitle} heroSubtitle={heroSubtitle} />
+            <Hero image={heroLegal.image} titleSpan={heroLegal.titleSpan} title={heroLegal.title} subtitle={heroLegal.subtitle} />
 
             <section className="py-16">
                 <div className="max-w-screen-xl mx-auto px-4">

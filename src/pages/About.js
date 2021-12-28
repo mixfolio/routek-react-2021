@@ -1,15 +1,12 @@
 import React from 'react';
 import Hero from '../components/Hero';
+import { heroAbout } from '../data/heroData';
 
-import bg from '../assets/images/hero-bg/about-hero-bg.jpg'
 
 const About = () => {
-    const heroTitleSpan = 'Открываем новые возможности '
-    const heroTitle = 'цифрового производства'
-    const heroSubtitle = <>Routek – это облачное производство, <br/>  обеспечивающее быстрый доступ заказчиков к производственным мощностям</>
     return (
         <>
-            <Hero bg={bg} heroTitleSpan={heroTitleSpan} heroTitle={heroTitle} heroSubtitle={heroSubtitle} />
+            <Hero image={heroAbout.image} titleSpan={heroAbout.titleSpan} title={heroAbout.title} subtitle={heroAbout.subtitle} />
 
             {/* Start description-block */}
             <section className="py-16">

@@ -1,15 +1,12 @@
 import React from 'react';
 import Hero from "../components/Hero";
-
-import bg from  '../assets/images/hero-bg/protection-hero-bg.jpg'
+import { heroProtection} from '../data/heroData';
 
 const Protection = () => {
-    const heroTitleSpan = 'Защита '
-    const heroTitle = 'интеллектуальной собственности'
-    const heroSubtitle = <>Мы серьезно относимся к защите <br/>Вашей интеллектуальной собственности</>;
+    
     return (
         <>
-            <Hero bg={bg}  heroTitleSpan={heroTitleSpan} heroTitle={heroTitle} heroSubtitle={heroSubtitle}/>
+            <Hero image={heroProtection.image} titleSpan={heroProtection.titleSpan} title={heroProtection.title} subtitle={heroProtection.subtitle} />
             <section className="py-16">
             <div className="max-w-screen-xl mx-auto px-4">
                 <h2 className="h2-title">Конфиденциальность от начала до конца</h2>
