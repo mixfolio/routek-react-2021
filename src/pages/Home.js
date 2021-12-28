@@ -4,14 +4,24 @@ import Hero from '../components/Hero';
 import { heroHome } from '../data/heroData';
 import { techCards} from '../data/newData';
 
-import stepOne from '../assets/images/step-1.svg'
-import stepTwo from '../assets/images/step-2.svg'
-import stepThree from '../assets/images/step-3.svg'
+import stepOne from '../assets/images/step-1.svg';
+import stepTwo from '../assets/images/step-2.svg';
+import stepThree from '../assets/images/step-3.svg';
 
-import advtgIcon01 from '../assets/images/advtg-ico-01.svg'
-import advtgIcon03 from '../assets/images/advtg-ico-03.svg'
-import advtgIcon04 from '../assets/images/advtg-ico-04.svg'
-import advtgIcon05 from '../assets/images/advtg-ico-05.svg'
+import barChartIcon from '../assets/images/bar-chart.svg';
+import sandWatchIcon from '../assets/images/sand-watch.svg';
+import lowPriceIcon from '../assets/images/low-price.svg';
+import ecologyIcon02 from '../assets/images/ecology-2.svg';
+import barChartIcon02 from '../assets/images/bar-chart-2.svg';
+import lowPriceIcon02 from '../assets/images/low-price-2.svg';
+import easyAccessIcon from '../assets/images/easy-access.svg';
+import ecologyIcon from '../assets/images/ecology.svg';
+
+import advtgIcon01 from '../assets/images/advtg-ico-01.svg';
+import advtgIcon03 from '../assets/images/advtg-ico-03.svg';
+import advtgIcon04 from '../assets/images/advtg-ico-04.svg';
+import advtgIcon05 from '../assets/images/advtg-ico-05.svg';
+
 
 
 
@@ -59,17 +69,17 @@ const Home = () => {
                             </div>
                             <div className="p-6 flex justify-between space-x-4">
                                 <div>
-                                    <img className="mx-auto" src="./images/sand-watch.svg" width="64" height="64"
+                                    <img className="mx-auto" src={sandWatchIcon} width="64" height="64"
                                         alt="saving-times"/>
                                     <p className="text-sm mt-2">Saving Time</p>
                                 </div>
                                 <div>
-                                    <img className="mx-auto" src="./images/bar-chart.svg" width="64" height="64"
+                                    <img className="mx-auto" src={barChartIcon} width="64" height="64"
                                         alt="bar-chart"/>
                                     <p className="text-sm mt-2">Faster Time-to-Market</p>
                                 </div>
                                 <div>
-                                    <img className="mx-auto mb-1" src="./images/low-price.svg" width="64" height="64"
+                                    <img className="mx-auto mb-1" src={lowPriceIcon} width="64" height="64"
                                         alt="low-price"/>
                                     <p className="text-sm mt-2">Low Cost</p>
                                 </div>
@@ -85,16 +95,16 @@ const Home = () => {
                             </div>
                             <div className="p-6 flex justify-between space-x-4">
                                 <div>
-                                    <img className="mx-auto" src="./images/ecology-2.svg" width="64" height="64" alt="ecology"/>
+                                    <img className="mx-auto" src={ecologyIcon02} width="64" height="64" alt="ecology"/>
                                     <p className="text-sm mt-2">Carbon Neutral</p>
                                 </div>
                                 <div>
-                                    <img className="mx-auto" src="./images/bar-chart-2.svg" width="64" height="64"
+                                    <img className="mx-auto" src={barChartIcon02} width="64" height="64"
                                         alt="bar-chart"/>
                                     <p className="text-sm mt-2">Faster Time-to-Market</p>
                                 </div>
                                 <div>
-                                    <img className="mx-auto" src="./images/low-price-2.svg" width="64" height="64"
+                                    <img className="mx-auto" src={lowPriceIcon02} width="64" height="64"
                                         alt="low-price"/>
                                     <p className="text-sm mt-2">Low Cost</p>
                                 </div>
@@ -111,16 +121,16 @@ const Home = () => {
                             </div>
                             <div className="p-6 flex justify-between space-x-4">
                                 <div>
-                                    <img className="mx-auto" src="./images/easy-access.svg" width="64" height="64"
+                                    <img className="mx-auto" src={easyAccessIcon} width="64" height="64"
                                         alt="easy-access"/>
                                     <p className="text-sm mt-2">Easy Access</p>
                                 </div>
                                 <div>
-                                    <img className="mx-auto" src="./images/ecology.svg" width="64" height="64" alt="bar-chart"/>
+                                    <img className="mx-auto" src={ecologyIcon} width="64" height="64" alt="bar-chart"/>
                                     <p className="text-sm mt-2">Carbon Neutral</p>
                                 </div>
                                 <div>
-                                    <img className="mx-auto" src="./images/sand-watch.svg" width="64" height="64"
+                                    <img className="mx-auto" src={sandWatchIcon} width="64" height="64"
                                         alt="sand-watch"/>
                                     <p className="text-sm mt-2">Saving Time</p>
                                 </div>

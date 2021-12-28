@@ -11,6 +11,10 @@ import factsIcon06 from '../assets/images/facts-ico-06.svg'
 import factsIcon07 from '../assets/images/facts-ico-07.svg'
 import factsIcon08 from '../assets/images/facts-ico-08.svg'
 
+import valuesIcon01 from '../assets/images/values-ico-01.svg'
+import valuesIcon02 from '../assets/images/values-ico-02.svg'
+import valuesIcon03 from '../assets/images/values-ico-03.svg'
+
 
 const About = () => {
     return (
@@ -79,21 +83,21 @@ const About = () => {
                     <ul className="grid md:grid-cols-1 lg:grid-cols-3 gap-6 mt-12">
                         <li>
                             <div className="mb-4">
-                                <img src="images/values-ico-01.svg" alt="values-ico-01" />
+                                <img src={valuesIcon01} alt="values-ico-01" />
                             </div>
                             <h3 className="text-xl sm:text-2xl font-medium">Клиентоориентированность</h3>
                             <p className="text-basic font-light text-neutral-700 mt-2">Все наши действия и усилия направлены, прежде всего, на обеспечение наивысшего качества обслуживания Наших клиентов. Мы всегда стараемся сдержать свои обещания перед клиентом и решить все его задачи. Всегда!</p>
                         </li>
                         <li>
                             <div className="mb-4">
-                                <img src="images/values-ico-02.svg" alt="values-ico-02.svg" />
+                                <img src={valuesIcon02} alt="values-ico-02.svg" />
                             </div>
                             <h3 className="text-xl sm:text-2xl font-medium">Профессионализм</h3>
                             <p className="text-basic font-light text-neutral-700 mt-2">В нашем мире невозможно без профессионализма, а он зависит от знаний и опыта. Профессионализм формирует доверие к нам и позволяет решать самые сложные и амбициозные задачи. Это так.</p>
                         </li>
                         <li>
                             <div className="mb-4">
-                                <img src="images/values-ico-03.svg" alt="values-ico-03.svg" />
+                                <img src={valuesIcon03} alt="values-ico-03.svg" />
                             </div>
                             <h3 className="text-xl sm:text-2xl font-medium">Открытость</h3>
                             <p className="text-basic font-light text-neutral-700 mt-2">Открытость способствует обмену знаниями и опытом внутри команды, между нашими клиентами и партнерами. Открытость формирует инновации, которые мы реализуем в наших проектах и решениях.</p>
