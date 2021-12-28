@@ -2,6 +2,15 @@ import React from 'react';
 import Hero from '../components/Hero';
 import { heroAbout } from '../data/heroData';
 
+import factsIcon01 from '../assets/images/facts-ico-01.svg'
+import factsIcon02 from '../assets/images/facts-ico-02.svg'
+import factsIcon03 from '../assets/images/facts-ico-03.svg'
+import factsIcon04 from '../assets/images/facts-ico-04.svg'
+import factsIcon05 from '../assets/images/facts-ico-05.svg'
+import factsIcon06 from '../assets/images/facts-ico-06.svg'
+import factsIcon07 from '../assets/images/facts-ico-07.svg'
+import factsIcon08 from '../assets/images/facts-ico-08.svg'
+
 
 const About = () => {
     return (
@@ -26,35 +35,35 @@ const About = () => {
                     <h2 className="h2-title text-center">Факты о нас</h2>
                     <ul className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
                         <li className="flex space-x-4">
-                            <img src="./images/facts-ico-01.svg" alt="facts-ico-01" />
+                            <img src={factsIcon01} alt="facts-ico-01" />
                             <p className="text-xl font-medium"><span className="text-4xl font-bold  block text-blue-500">8</span>сотрудников</p>
                         </li>
                         <li className="flex space-x-4">
-                            <img src="./images/facts-ico-02.svg" alt="facts-ico-02" />
+                            <img src={factsIcon02} alt="facts-ico-02" />
                             <p className="text-xl font-medium"><span className="text-4xl font-bold  block text-emerald-400">35 лет</span>средний возраст</p>
                         </li>
                         <li className="flex space-x-4">
-                            <img src="./images/facts-ico-03.svg" alt="facts-ico-03" />
+                            <img src={factsIcon03} alt="facts-ico-03" />
                             <p className="text-xl font-medium"><span className="text-4xl font-bold block text-blue-500">25%</span>кошек</p>
                         </li>
                         <li className="flex space-x-4">
-                            <img src="./images/facts-ico-04.svg" alt="facts-ico-04" />
+                            <img src={factsIcon04} alt="facts-ico-04" />
                             <p className="text-xl font-medium"><span className="text-4xl font-bold block text-emerald-400">75%</span>собак</p>
                         </li>
                         <li className="flex space-x-4">
-                            <img src="./images/facts-ico-05.svg" alt="facts-ico-05" />
+                            <img src={factsIcon05} alt="facts-ico-05" />
                             <p className="text-xl font-medium"><span className="text-4xl font-bold block text-emerald-400">15 000</span>миль на самолете</p>
                         </li>
                         <li className="flex space-x-4">
-                            <img src="./images/facts-ico-06.svg" alt="facts-ico-06" />
+                            <img src={factsIcon06} alt="facts-ico-06" />
                             <p className="text-xl font-medium"><span className="text-4xl font-bold block text-blue-500">8 000</span>км на поезде</p>
                         </li>
                         <li className="flex space-x-4">
-                            <img src="./images/facts-ico-07.svg" alt="facts-ico-07" />
+                            <img src={factsIcon07} alt="facts-ico-07" />
                             <p className="text-xl font-medium"><span className="text-4xl font-bold block text-emerald-400">1 250</span>литров кофе</p>
                         </li>
                         <li className="flex space-x-4">
-                            <img src="./images/facts-ico-08.svg" alt="facts-ico-08" />
+                            <img src={factsIcon08} alt="facts-ico-08" />
                             <p className="text-xl font-medium"><span className="text-4xl font-bold block text-blue-500">1 708</span>литров чая</p>
                         </li>
                     </ul>

@@ -3,6 +3,14 @@ import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
 import { heroWarranty } from '../data/heroData';
 
+import warrIcon01 from '../assets/images/warr-ico-01.svg';
+import warrIcon02 from '../assets/images/warr-ico-02.svg';
+import warrIcon03 from '../assets/images/warr-ico-03.svg';
+import warrIcon04 from '../assets/images/warr-ico-04.svg';
+
+import qualityIcon from '../assets/images/quality-ico-01.svg';
+import decisionIcon from '../assets/images/decision-ico.svg';
+
 const Warranty = () => {
     return (
         <>
@@ -11,19 +19,19 @@ const Warranty = () => {
                 <div className="max-w-screen-xl mx-auto px-4">
                     <ul className="grid md:grid-cols-1 lg:grid-cols-4 gap-6">
                         <li className="text-center">
-                            <img className="mx-auto" src="./images/warr-ico-01.svg" alt="warr-ico-01"/>
+                            <img className="mx-auto" src={warrIcon01} alt="warr-ico-01"/>
                             <h3 className="text-xl mt-4 font-medium">Стандарты производства</h3>
                         </li>
                         <li className="text-center">
-                            <img className="mx-auto" src="./images/warr-ico-02.svg" alt="warr-ico-02"/>
+                            <img className="mx-auto" src={warrIcon02}  alt="warr-ico-02"/>
                             <h3 className="text-xl mt-4 font-medium">Оценка производственного партнера</h3>
                         </li>
                         <li className="text-center">
-                            <img className="mx-auto" src="./images/warr-ico-03.svg" alt="warr-ico-03"/>
+                            <img className="mx-auto" src={warrIcon03}  alt="warr-ico-03"/>
                             <h3 className="text-xl mt-4 font-medium">Отчеты о качестве и сертификаты</h3>
                         </li>
                         <li className="text-center">
-                            <img className="mx-auto" src="./images/warr-ico-04.svg" alt="warr-ico-04"/>
+                            <img className="mx-auto" src={warrIcon04}  alt="warr-ico-04"/>
                             <h3 className="text-xl mt-4 font-medium">Программа проверки дизайна</h3>
                         </li>
                     </ul>
@@ -76,7 +84,7 @@ const Warranty = () => {
                         что гарантирует качественное выполнение заказов</h4>
 
                     <div className="mt-6 md:flex md:items-center md:space-x-4">
-                        <img className="mx-auto" src="./images/quality-ico-01.svg" alt="quality-ico"/>
+                        <img className="mx-auto" src={qualityIcon} alt="quality-ico"/>
                         <div>
                             <h3 className="text-2xl font-medium">Стандартный отчет о проверке качества</h3>
                             <ul className="text-xl font-light text-neutral-700 list-disc list-inside mt-4">
@@ -118,7 +126,7 @@ const Warranty = () => {
                         <Link to="#" className="btn-xl">Подробнее</Link>
                     </div>
                     <div className="md:flex sm:items-center sm:space-x-4 mt-6">
-                        <img className="mx-auto w-48 md:w-fit" src="./images/decision-ico.svg" alt="decision"/>
+                        <img className="mx-auto w-48 md:w-fit" src={decisionIcon} alt="decision"/>
                         <div>
                             <h3 className="text-2xl font-medium">Решение</h3>
                             <p className="text-xl font-light text-neutral-700">Если ваш заказ не соответствует

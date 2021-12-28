@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from "../components/Hero";
 import { heroContacts } from '../data/heroData';
+import mapImage from '../assets/images/map.jpg'
 
 import markerIcon from '../assets/images/marker-ico.svg';
 import phoneIcon from '../assets/images/phone-ico.svg';
@@ -17,7 +18,7 @@ const Contacts = () => {
                         <h2 className="text-5xl text-center">Свяжитесь с нами</h2>
                         <div className="grid lg:grid-cols-2 gap-6 mt-12">
                             <div>
-                                <img className="w-full" src="./images/map.jpg" alt="map" />
+                                <img className="w-full" src={mapImage} alt="map" />
                             </div>
                             <div>
                                 <form action="" method="post">

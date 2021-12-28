@@ -8,6 +8,13 @@ import stepOne from '../assets/images/step-1.svg'
 import stepTwo from '../assets/images/step-2.svg'
 import stepThree from '../assets/images/step-3.svg'
 
+import advtgIcon01 from '../assets/images/advtg-ico-01.svg'
+import advtgIcon03 from '../assets/images/advtg-ico-03.svg'
+import advtgIcon04 from '../assets/images/advtg-ico-04.svg'
+import advtgIcon05 from '../assets/images/advtg-ico-05.svg'
+
+
+
 const Home = () => {
    
     return (    
@@ -185,7 +192,7 @@ const Home = () => {
                     <ul className="grid md:grid-cols-2 gap-6 mt-12">
                         <li>
                             <div className="mb-4">
-                                <img src="./images/advtg-ico-01.svg" alt="advtg-ico-01" />
+                                <img src={advtgIcon01} alt="advtg-ico-01" />
                             </div>
                             <h3 className="text-3xl">Контроль сроков</h3>
                             <p className="text-basic font-light text-neutral-500 mt-2">Наша платформа помогает комфортно
@@ -195,7 +202,7 @@ const Home = () => {
                         </li>
                         <li>
                             <div className="mb-4">
-                                <img src="./images/advtg-ico-03.svg" alt="advtg-ico-03" />
+                                <img src={advtgIcon03} alt="advtg-ico-03" />
                             </div>
                             <h3 className="text-3xl">Безопасность данных</h3>
                             <p className="text-basic font-light text-neutral-500 mt-2">Использование безопасных соединений,
@@ -206,7 +213,7 @@ const Home = () => {
                         </li>
                         <li>
                             <div className="mb-4">
-                                <img src="./images/advtg-ico-04.svg" alt="advtg-ico-04" />
+                                <img src={advtgIcon04} alt="advtg-ico-04" />
                             </div>
                             <h3 className="text-3xl">Гарантированное качество</h3>
                             <p className="text-basic font-light text-neutral-500 mt-2">От аудита производственных партнеров
@@ -218,7 +225,7 @@ const Home = () => {
                         </li>
                         <li>
                             <div className="mb-4">
-                                <img src="./images/advtg-ico-05.svg" alt="advtg-ico-05" />
+                                <img src={advtgIcon05} alt="advtg-ico-05" />
                             </div>
                             <h3 className="text-3xl">Прозрачное ценообразование</h3>
                             <p className="text-basic font-light text-neutral-500 mt-2">Мы предоставляем доступ к подробным

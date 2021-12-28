@@ -2,6 +2,8 @@ import React from 'react';
 import Hero from "../components/Hero";
 import { heroProtection} from '../data/heroData';
 
+import privacyImage from '../assets/images/privacy-img-01.jpg'
+
 const Protection = () => {
     
     return (
@@ -23,7 +25,7 @@ const Protection = () => {
 
                 <div className="mt-12 md:flex md:space-x-6">
                     <div className="w-2/5">
-                        <img className="object-cover"  src="./images/privacy-img-01.jpg" width="513" height="276" alt="Шифрование и расположение сервера"/>
+                        <img className="object-cover"  src={privacyImage} width="513" height="276" alt="Шифрование и расположение сервера"/>
                     </div>
 
                     <div className="w-3/5">
