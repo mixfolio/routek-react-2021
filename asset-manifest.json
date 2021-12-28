@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/routek-react-2021/static/css/main.aa6fe074.css",
-    "main.js": "/routek-react-2021/static/js/main.04aa28ee.js",
+    "main.js": "/routek-react-2021/static/js/main.43ce876b.js",
     "static/media/protection-hero-bg.jpg": "/routek-react-2021/static/media/protection-hero-bg.6099d0568e5fbd482567.jpg",
     "static/media/contacts-hero-bg.jpg": "/routek-react-2021/static/media/contacts-hero-bg.eb48482d2877bfd4b1c5.jpg",
     "static/media/about-hero-bg.jpg": "/routek-react-2021/static/media/about-hero-bg.605e7dfecb7bba72b6d8.jpg",
@@ -23,14 +23,23 @@
     "static/media/advtg-ico-01.svg": "/routek-react-2021/static/media/advtg-ico-01.f2a005a1aca01a35ea1b5ebb3d80c3f4.svg",
     "static/media/step-2.svg": "/routek-react-2021/static/media/step-2.2f67b91fc39d4871b1147fa6c36ddaed.svg",
     "static/media/step-3.svg": "/routek-react-2021/static/media/step-3.0870d6226035520abf6b8d71af4b6b47.svg",
+    "static/media/values-ico-03.svg": "/routek-react-2021/static/media/values-ico-03.a1aa569231f9267d42eb56ecfa61ff02.svg",
+    "static/media/values-ico-01.svg": "/routek-react-2021/static/media/values-ico-01.b535679aefa546680e8b01cde17e2833.svg",
     "static/media/step-1.svg": "/routek-react-2021/static/media/step-1.f79b97dd4b3a94548da797a89a8b9874.svg",
     "static/media/3d-printing.svg": "/routek-react-2021/static/media/3d-printing.2ec9a2fb15a6f222fcd84f5bb384a0f8.svg",
     "static/media/warr-ico-01.svg": "/routek-react-2021/static/media/warr-ico-01.8780f38b5666bc8fb5e7691deac11e48.svg",
     "static/media/warr-ico-02.svg": "/routek-react-2021/static/media/warr-ico-02.ca697d7bfcbb811e1a18fd44cf7ca7c3.svg",
+    "static/media/values-ico-02.svg": "/routek-react-2021/static/media/values-ico-02.5f7bb69c5849855e4d8bbd81bbcb71d0.svg",
+    "static/media/ecology.svg": "/routek-react-2021/static/media/ecology.595212b594d98a4d0db6b3d97a2bb64b.svg",
+    "static/media/ecology-2.svg": "/routek-react-2021/static/media/ecology-2.8b5ffcf5c572cd1a8c4bf610781145a3.svg",
     "static/media/decision-ico.svg": "/routek-react-2021/static/media/decision-ico.50a77b745ba76ebc9a728be194eea289.svg",
     "static/media/warr-ico-04.svg": "/routek-react-2021/static/media/warr-ico-04.b870d87b3214b1109aac4190595cf1ec.svg",
     "static/media/warr-ico-03.svg": "/routek-react-2021/static/media/warr-ico-03.b95ec51e998aeea0e50eaae58474138f.svg",
     "static/media/advtg-ico-04.svg": "/routek-react-2021/static/media/advtg-ico-04.092c3d5be1f694949e5715ba273c3765.svg",
+    "static/media/low-price.svg": "/routek-react-2021/static/media/low-price.f452807ce4d9fea052df221ba9ffdbbb.svg",
+    "static/media/low-price-2.svg": "/routek-react-2021/static/media/low-price-2.8f8d6bd6c1a21222b763d4f74386e416.svg",
+    "static/media/bar-chart.svg": "/routek-react-2021/static/media/bar-chart.fe36d9df0cc594c9e2b2d562fdea4d1d.svg",
+    "static/media/bar-chart-2.svg": "/routek-react-2021/static/media/bar-chart-2.d6d79f307440e7c4e063569b92fc27a7.svg",
     "static/media/quality-ico-01.svg": "/routek-react-2021/static/media/quality-ico-01.3fb5db7339b9bc226a2d51eeed9b3c71.svg",
     "static/media/facts-ico-02.svg": "/routek-react-2021/static/media/facts-ico-02.2c79269d40431090b437ebf81ae6d69b.svg",
     "static/media/facts-ico-04.svg": "/routek-react-2021/static/media/facts-ico-04.3c3b28cfb62e0e8665cddb82fb90bcf9.svg",
@@ -39,11 +48,13 @@
     "static/media/chpu.svg": "/routek-react-2021/static/media/chpu.fcf8b8458eeeef372f8f47000d64a13c.svg",
     "static/media/facts-ico-07.svg": "/routek-react-2021/static/media/facts-ico-07.c33bc348dfd1df8485ed8db0a38cd78d.svg",
     "static/media/facts-ico-08.svg": "/routek-react-2021/static/media/facts-ico-08.459196c1ed784f3c2a1324dd12c26946.svg",
+    "static/media/sand-watch.svg": "/routek-react-2021/static/media/sand-watch.4c60057d9329d89f8333693c9191ce0d.svg",
     "static/media/facts-ico-05.svg": "/routek-react-2021/static/media/facts-ico-05.1f57c84313e41cc572569fe45049ef7b.svg",
     "static/media/advtg-ico-03.svg": "/routek-react-2021/static/media/advtg-ico-03.91848f45a927afd8dc232874f2bed07e.svg",
     "static/media/phone-ico.svg": "/routek-react-2021/static/media/phone-ico.5c87703e934fce42f50a26fc4da7fde0.svg",
     "static/media/facts-ico-01.svg": "/routek-react-2021/static/media/facts-ico-01.1457a41b24ec58dcd93562209ba3baf1.svg",
     "static/media/facts-ico-06.svg": "/routek-react-2021/static/media/facts-ico-06.098a698b0a318e41d944da37ba7f4e79.svg",
+    "static/media/easy-access.svg": "/routek-react-2021/static/media/easy-access.ec43e531262070020fa930fa41e66f29.svg",
     "static/media/sheet-metal.svg": "/routek-react-2021/static/media/sheet-metal.e846e2eaa9312c0b8d6fa33f590fcd92.svg",
     "static/media/marker-ico.svg": "/routek-react-2021/static/media/marker-ico.b9489d9c31035118ce044bd976447649.svg",
     "static/media/molding.svg": "/routek-react-2021/static/media/molding.ee92a7117b8571ab80843093778959ab.svg",
@@ -56,10 +67,10 @@
     "static/media/telegram-ico.svg": "/routek-react-2021/static/media/telegram-ico.fe11ced370083953b235ed7ddc42b7c4.svg",
     "static/media/facebook-ico.svg": "/routek-react-2021/static/media/facebook-ico.d13f0f65a75baa8d4af25c1b62693782.svg",
     "main.aa6fe074.css.map": "/routek-react-2021/static/css/main.aa6fe074.css.map",
-    "main.04aa28ee.js.map": "/routek-react-2021/static/js/main.04aa28ee.js.map"
+    "main.43ce876b.js.map": "/routek-react-2021/static/js/main.43ce876b.js.map"
   },
   "entrypoints": [
     "static/css/main.aa6fe074.css",
-    "static/js/main.04aa28ee.js"
+    "static/js/main.43ce876b.js"
   ]
 }
