@@ -1,32 +1,39 @@
+import chpuIcon from '../assets/images/chpu.svg';
+import print3dIcon from '../assets/images/3d-printing.svg';
+import sheetMetalIcon from '../assets/images/sheet-metal.svg';
+import moldingIcon from '../assets/images/molding.svg';
+import vacuumIcon from '../assets/images/vacuum.svg';
+import scanning3dIcon from '../assets/images/3d-scanning.svg';
+
 export const techCards = [
     {
         "title": "Обработка с ЧПУ",
-        "img": "images/chpu.svg",
+        "img": chpuIcon,
         "descr": "Фрезерование (3-,4- и 5-осевое), токарная обработка и постобработка."
     },
     {
         "title": "3D-печать и 3D-сканирование",
-        "img": "images/3d-printing.svg",
+        "img": print3dIcon,
         "descr": "FDM, SLA, SLS, MJF, PolyJet, DMLS."
     },
     {
         "title": "Обработка листового металла",
-        "img": "images/sheet-metal.svg",
+        "img": sheetMetalIcon,
         "descr": "Резка, гибка и постобработка"
     },
     {
         "title": "Литье",
-        "img": "images/molding.svg",
+        "img": moldingIcon,
         "descr": "Литье в силиконовые формы и литье в пресс-формы"
     },
     {
         "title": "Вакуумная формовка",
-        "img": "images/vacuum.svg",
+        "img": vacuumIcon,
         "descr": "Любой тираж в минимальные сроки"
     },
     {
         "title": "Производство микроэлектроники",
-        "img": "images/3d-scanning.svg",
+        "img": scanning3dIcon,
         "descr": "Изготовление электронных устройств и компонентов для прототипов и промышленных образцов"
     }
 ]
