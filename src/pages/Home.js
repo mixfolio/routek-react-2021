@@ -4,6 +4,10 @@ import Hero from '../components/Hero';
 import bg from '../assets/images/hero-bg/index-hero-bg.jpg'
 import { techCards} from './newData';
 
+import stepOne from '../assets/images/step-1.svg'
+import stepTwo from '../assets/images/step-2.svg'
+import stepThree from '../assets/images/step-3.svg'
+
 
 const Home = () => {
     const heroTitleSpan = 'Производство '
@@ -132,7 +136,7 @@ const Home = () => {
 
                     <ul className="relative grid lg:grid-cols-3 gap-6 mt-12">
                         <li>
-                            <img className="mb-6 mx-auto" src="images/step-1.svg" alt="step-one" />
+                            <img className="mb-6 mx-auto" src={stepOne} alt="step-one" />
                             <div className="mt-12">
 
                                 <h3 className="text-3xl font-bold text-blue-500">Шаг 1.</h3>
@@ -143,7 +147,7 @@ const Home = () => {
                             </div>
                         </li>
                         <li>
-                            <img className="mb-6 mx-auto" src="images/step-2.svg" alt="step-two" />
+                            <img className="mb-6 mx-auto" src={stepTwo} alt="step-two" />
                             <div className="mt-12">
 
                                 <h3 className="text-3xl font-bold text-secondary">Шаг 2.</h3>
@@ -158,7 +162,7 @@ const Home = () => {
                             </div>
                         </li>
                         <li>
-                            <img className="mb-6 mx-auto" src="images/step-3.svg" alt="step-three" />
+                            <img className="mb-6 mx-auto" src={stepThree} alt="step-three" />
                             <div className="mt-12">
 
                                 <h3 className="text-3xl font-bold text-blue-500">Шаг 3.</h3>
