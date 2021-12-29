@@ -9,7 +9,7 @@ import linkedin from "../assets/images/linkedin-ico.svg"
 
 const Footer = () => {
     return (
-        <footer className="py-16 text-white bg-black">
+        <footer className="py-10 md:py-16 text-white bg-black">
         <div className="max-w-screen-xl mx-auto px-4">
             <div className="flex flex-wrap space-y-4 justify-between">
                 <div className="w-fit">

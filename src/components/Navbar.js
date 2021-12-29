@@ -84,6 +84,9 @@ const Navbar = ({visible, setVisible}) => {
         <div className={visible ? "lg:hidden" : "hidden lg:hidden"}>
             <ul className="px-2 pt-2 pb-3 space-y-1">
                 <li>
+                    <NavLink onClick={() => setVisible(false)} to="/" className="bg-neutral-900 px-3 py-2 rounded-md block font-light hover:text-white hover:bg-neutral-800">Главная</NavLink>
+                </li>
+                <li>
                     <NavLink onClick={() => setVisible(false)} to="/about" className="bg-neutral-900 px-3 py-2 rounded-md block font-light hover:text-white hover:bg-neutral-800">О нас</NavLink>
                 </li>
                 <li>

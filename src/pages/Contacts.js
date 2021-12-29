@@ -12,10 +12,10 @@ const Contacts = () => {
     return (
         <>
             <Hero image={heroContacts.image} titleSpan={heroContacts.titleSpan} title={heroContacts.title} subtitle={heroContacts.subtitle} />
-            <section className="py-16">
+            <section className="py-10 md:py-16">
                 <div className="container mx-auto px-4">
                     <div>
-                        <h2 className="text-5xl text-center">Свяжитесь с нами</h2>
+                        <h2 className="h2-title text-center">Свяжитесь с нами</h2>
                         <div className="grid lg:grid-cols-2 gap-6 mt-12">
                             <div>
                                 <img className="w-full" src={mapImage} alt="map" />
@@ -58,19 +58,19 @@ const Contacts = () => {
                         </div>
                     </div>
 
-                    <div className="mt-16">
-                        <h2 className="text-5xl text-center">Контакты</h2>
+                    <div className="mt-10 md:mt-16">
+                        <h2 className="h2-title text-center">Контакты</h2>
                         <div className="mt-12 grid md:grid-cols-3 gap-6">
                             <div className="flex items-center">
-                                <img className="w-10 h-10 mr-4" src={markerIcon} alt="marker" />
+                                <img className="w-8 h-8 md:w-10 md:h-10 mr-4" src={markerIcon} alt="marker" />
                                 <p>Москва, ул. 1905 года, д.7с1</p>
                             </div>
                             <div className="flex items-center">
-                                <img className="w-10 h-10 mr-4" src={mailIcon} alt="mail" />
+                                <img className="w-8 h-8 md:w-10 md:h-10 mr-4" src={mailIcon} alt="mail" />
                                 <p>info@routek.tech</p>
                             </div>
                             <div className="flex items-center">
-                                <img className="w-10 h-10 mr-4" src={phoneIcon} alt="phone" />
+                                <img className="w-8 h-8 md:w-10 md:h-10 mr-4" src={phoneIcon} alt="phone" />
                                 <p>+7(495) 374-82-46</p>
                             </div>
                         </div>

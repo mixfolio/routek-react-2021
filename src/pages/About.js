@@ -22,10 +22,10 @@ const About = () => {
             <Hero image={heroAbout.image} titleSpan={heroAbout.titleSpan} title={heroAbout.title} subtitle={heroAbout.subtitle} />
 
             {/* Start description-block */}
-            <section className="py-16">
+            <section className="py-10 md:py-16">
                 <div className="max-w-screen-xl mx-auto px-4">
                     <h2 className="h2-title">Мы формируем будущее цифрового производства</h2>
-                    <div className="mt-12 text-basic font-light text-neutral-600">
+                    <div className="mt-6 md:mt-12 text-basic font-light text-neutral-600">
                         <p>Сегодня мир стоит на пороге развития экономики нового технологического поколения — цифровой экономики. Центральное место в цифровой экономике занимает высокотехнологичная промышленность, которая должна отвечать требованиям глобальной конкурентоспособности, эффективности и высокой производительности труда. </p>
                         <p>Мы верим в будущее цифрового производства и с помощью Routek формируем его вместе с вами. Routek – это платформа облачного производства, обеспечивающая доступ заказчиков к распределенной сети свободных производственных мощностей для оперативного производства деталей. Мы даем вам возможность производить изделия и детали, используя свободные производственные мощности наших партнеров. </p>
                     </div>
@@ -34,10 +34,10 @@ const About = () => {
             {/* End description-block */}
 
             {/* Start facts-block */}
-            <section className="py-16 bg-neutral-900 text-white">
+            <section className="py-10 md:py-16 bg-neutral-900 text-white">
                 <div className="container mx-auto px-4">
                     <h2 className="h2-title text-center">Факты о нас</h2>
-                    <ul className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
+                    <ul className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-6 md:mt-12">
                         <li className="flex space-x-4">
                             <img src={factsIcon01} alt="facts-ico-01" />
                             <p className="text-xl font-medium"><span className="text-4xl font-bold  block text-blue-500">8</span>сотрудников</p>
@@ -76,11 +76,11 @@ const About = () => {
             {/* End facts-block */}
 
             {/* Start Our Values block */}
-            <section className="py-16">
+            <section className="py-10 md:py-16">
                 <div className="max-w-screen-xl mx-auto px-4">
                     <h2 className="h2-title text-center">Наши ценности</h2>
 
-                    <ul className="grid md:grid-cols-1 lg:grid-cols-3 gap-6 mt-12">
+                    <ul className="grid md:grid-cols-1 lg:grid-cols-3 gap-6 mt-6 md:mt-12">
                         <li>
                             <div className="mb-4">
                                 <img src={valuesIcon01} alt="values-ico-01" />

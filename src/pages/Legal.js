@@ -19,14 +19,14 @@ const Legal = () => {
         <>
             <Hero image={heroLegal.image} titleSpan={heroLegal.titleSpan} title={heroLegal.title} subtitle={heroLegal.subtitle} />
 
-            <section className="py-16">
+            <section className="py-10 md:py-16">
                 <div className="max-w-screen-xl mx-auto px-4">
                     <h2 className="h2-title">Правовая информация</h2>
                     <ul className="mt-6">
                         {legalData.map((item, index) =>
                             <li key={index} className='border-b'>
                                 <div onClick={() => toggle(index)} className='flex justify-between items-center py-4 cursor-pointer'>
-                                    <h3 className="text-2xl text-primary  ">
+                                    <h3 className="text-xl md:text-2xl text-primary  ">
                                         {item.title}
                                     </h3>
                                     <span>

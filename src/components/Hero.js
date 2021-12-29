@@ -7,7 +7,7 @@ const Hero = (props) => {
             style={{ backgroundImage: `url(${props.image})` }}
             >
             <div className="max-w-screen-xl mx-auto px-4">
-                <div className="flex flex-col justify-center" style={{ minHeight: "550px" }}>
+                <div className="flex flex-col justify-center py-4 md:min-h-[550px]">
                     <h2 className="hero-title">
                         <span className="text-primary">{props.titleSpan}</span><br />{props.title}<span className="text-primary">.</span>
                     </h2>
