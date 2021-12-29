@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/routek-react-2021/static/css/main.aa6fe074.css",
-    "main.js": "/routek-react-2021/static/js/main.43ce876b.js",
+    "main.css": "/routek-react-2021/static/css/main.862ddef3.css",
+    "main.js": "/routek-react-2021/static/js/main.50ec1715.js",
     "static/media/protection-hero-bg.jpg": "/routek-react-2021/static/media/protection-hero-bg.6099d0568e5fbd482567.jpg",
     "static/media/contacts-hero-bg.jpg": "/routek-react-2021/static/media/contacts-hero-bg.eb48482d2877bfd4b1c5.jpg",
     "static/media/about-hero-bg.jpg": "/routek-react-2021/static/media/about-hero-bg.605e7dfecb7bba72b6d8.jpg",
@@ -66,11 +66,11 @@
     "index.html": "/routek-react-2021/index.html",
     "static/media/telegram-ico.svg": "/routek-react-2021/static/media/telegram-ico.fe11ced370083953b235ed7ddc42b7c4.svg",
     "static/media/facebook-ico.svg": "/routek-react-2021/static/media/facebook-ico.d13f0f65a75baa8d4af25c1b62693782.svg",
-    "main.aa6fe074.css.map": "/routek-react-2021/static/css/main.aa6fe074.css.map",
-    "main.43ce876b.js.map": "/routek-react-2021/static/js/main.43ce876b.js.map"
+    "main.862ddef3.css.map": "/routek-react-2021/static/css/main.862ddef3.css.map",
+    "main.50ec1715.js.map": "/routek-react-2021/static/js/main.50ec1715.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa6fe074.css",
-    "static/js/main.43ce876b.js"
+    "static/css/main.862ddef3.css",
+    "static/js/main.50ec1715.js"
   ]
 }
